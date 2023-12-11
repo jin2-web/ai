@@ -16,4 +16,7 @@ public class ShopService {
 	public static ShopService getInstance() {
 		return shopService;
 	}
+	
+	class A { }
+	
 }
