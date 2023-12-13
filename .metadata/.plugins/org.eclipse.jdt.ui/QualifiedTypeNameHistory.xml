@@ -18,7 +18,6 @@
     <fullyQualifiedTypeName name="javaBasic3.ch06.sec12.Computer"/>
     <fullyQualifiedTypeName name="javaBasic3.ch06.sec13.Television"/>
     <fullyQualifiedTypeName name="javaBasic3.ch06.sec14.BankApplication"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javaBasic3.ch06.sec14.Account"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec01.SmartPhone"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec02.Teacher"/>
@@ -29,4 +28,14 @@
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec05.Parent"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec05.Child"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec06.SnowTire"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec07.A"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec12.Promotion4Ex"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.HankookTire"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.KumhoTire"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.DB"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.Oracle"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.Connect"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.MySQL"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.MongoDB"/>
 </qualifiedTypeNameHistroy>
