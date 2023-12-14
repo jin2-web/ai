@@ -38,4 +38,22 @@
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.Connect"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.MySQL"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.MongoDB"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Driver"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Bus"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Taxi"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec14.Vehicle"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.Play"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.SmartPhone"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.Iphone"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec15.Phone"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec16.Machine"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec16.Activity"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec16.MainActivity"/>
+    <fullyQualifiedTypeName name="javaBasic4.ch07.sec16.MainMainActivity"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.Television"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.RemoteControl"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec02.SmartPhone"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Vehicle"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.CarRun"/>
+    <fullyQualifiedTypeName name="javaBasic5.ch08.sec03.Train"/>
 </qualifiedTypeNameHistroy>
