@@ -86,4 +86,6 @@ b="200"
 c = (int)(a) + (int)(b)  # "100"- 숫자 바꾸기 ->100
 print( type( c ) ) 
 print( c ) # 300
-print( a )
+
+# 66page 
+
