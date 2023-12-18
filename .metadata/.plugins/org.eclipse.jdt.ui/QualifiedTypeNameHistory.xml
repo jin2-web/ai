@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec10.exam01.Calculator"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec10.exam02.Television"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec04.AA"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec05.Singleton"/>
     <fullyQualifiedTypeName name="javaBasic3.ch06.sec07.MemberServices"/>
     <fullyQualifiedTypeName name="javaBasic3.ch06.sec09.ShopService"/>
     <fullyQualifiedTypeName name="javaBasic3.ch06.sec09.SportCar"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="javaBasic6.ch09.sec01.A.B"/>
     <fullyQualifiedTypeName name="javaBasic6.ch09.sec02.AA.BB"/>
     <fullyQualifiedTypeName name="javaBasic6.ch09.sec03.LocalExample"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec04.Outter.Inner"/>
+    <fullyQualifiedTypeName name="javaBasic6.ch09.sec05.CImpl"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 </qualifiedTypeNameHistroy>
