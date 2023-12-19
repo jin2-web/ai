@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec07.MemberServices"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec09.ShopService"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec09.SportCar"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec11.Calculator"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec12.Computer"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec13.Television"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.sec14.BankApplication"/>
     <fullyQualifiedTypeName name="javaBasic3.ch06.sec14.Account"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec01.SmartPhone"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec02.Teacher"/>
@@ -18,7 +11,6 @@
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec05.Child"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec06.SnowTire"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec07.A"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec12.Promotion4Ex"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.HankookTire"/>
     <fullyQualifiedTypeName name="javaBasic4.ch07.sec13.KumhoTire"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.lang.module.ModuleDescriptor"/>
+    <fullyQualifiedTypeName name="javaApp1.ch12.sec01.Netplex"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
