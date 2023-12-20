@@ -1,6 +1,7 @@
 # 182 리스트 특징
 # 여러 자료들의 목록형태로 관리하는 자료구조
 # 특징 : 순서가 있다. 수정이 가능하다. 요소의 종류가 달라도 된다.
+#        중복저장가능 - 요소가 동일하게 여러개 나올수있다. 
 list1 = [1, 1.1, "문자", [1,9],7,8 ]
 print( list1[1:5:3] ) # [1] [4]
 
@@ -15,7 +16,7 @@ list2 = list( range(1,21,2) )
 print(list2)
 print(type(list2))
  
-list3 = list("abcdef")
+list3 = list("abcdef") # ['a','b','c'...]
 print( list3 )
 print( type(list3))
 

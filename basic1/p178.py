@@ -40,15 +40,15 @@ for i in range(1, 1001) :
 count = 0                           
 for i in range(1, 1001) :
     if count == 10 :
-        print()
+        print() # 줄바꾸기
         count = 0
     if i % 3 != 0 :
         print(i, end=" ")
         count += 1
 
 # while문
-i=1
-count = 0
+i=1 # 1 2 3 ... 1000
+count = 0 # 한줄에 10개출력 
 while i<=1000 :
     if count == 10 :
         print()
