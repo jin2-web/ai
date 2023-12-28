@@ -50,7 +50,7 @@ print(x, "~~~")
 
 # 284 
 def cir_area() :
-    
+    global r
     result = r * r * 3.14
     return result
 def cir_length() :

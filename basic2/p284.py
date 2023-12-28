@@ -81,24 +81,35 @@ def engQuiz( eng_dict ) :
             print("틀렸어요!")    
 
 engQuiz( eng_dict )    
-"""
-# 심화문제 7-1
-n = int(input("n값을 입력해 주세요"))
+
+# 심화문제 7-1 291page
+n = int(input("n값을 입력해 주세요")) # 50
 
 def decimalFun( n1 ) :
-    de = []
-    for i in range( 2, n1, 1) : # 2 3 4
-        if i % i == 0 and i % 1 == 0:  ###  소수 구하기 ????
-                de.append( i )
-                
-    print( de )
+    dL = []
+    for i in range( 2, n1, 1) : # 2 3 4 5
+        x = True
+        for j in range( 2, i, 1) : # 1,  2 , 2 3 , 2 3 4 5 
+            if i % j == 0   :  # 2 % 2 == 0 
+                x = False
+                break
+        if x :
+            # print(i)
+            dL.append(i)
+    return dL        
 
-decimalFun( n )
+dL=decimalFun( n )
+print(dL, end="")
 
+"""
+# 7-3 
+n = int( input("n값을 입력하세요:"))
 
-decimalFun(n) 
+def nMul( n ) :
+    result = []
+    for i in range( 1, n+1 ) : # 1~10
+        result.append( i*i )
+    return result
 
-
-
-
-
+resultList = nMul( n )
+print( resultList )

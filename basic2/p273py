@@ -53,6 +53,6 @@ def get_item( userid ) :
 
 user1 = "kim"
 user2 = "choi"
-print("%s의 게임 아이템 : %s"%(user1, get_item( user1 )     ))
+print("%s의 게임 아이템 : %s"%(user1, get_item( user1 )  ))
 print("%s의 게임 아이템 : %s"%(user2, get_item( user2 ) )) 
 
