@@ -83,7 +83,7 @@ select    *    from   emp    where  ename  like '이%'    or   ename like  '오%' 
 select    *    from   emp    where  not  ename  like   '이%'  ; -- like 유사하다
 select    *    from   emp    where    ename not  like   '이%'  ; -- like 유사하다
 
--- 이름 중간 글씨가 '동'인 사람
+-- 이름 중간 글씨가 '동'인 사람, 이름에 '동'자가 들어 가는 사람
 select    *    from   emp    where  ename  like '%동%'  ; -- '%'는 임의의 글자
 
 -- in ~안에
@@ -103,7 +103,7 @@ select    *    from   emp    where   hiredate   between  '06/01/01'  and   '07/1
 select    *    from   emp    where  mgr   between  1010 and 1020 ;
 
 -- comm 이 null 인 사람 출력하기 
--- select    *    from   emp    where  comm = null ; 안됨
+-- select    *    from   emp    where  comm = null ; 안됨 null 미확정된 자료 , 정의되기 전에 자료
  select    *    from   emp    where  comm  is  null ;
 
 -- 이름 오름차순으로 출력하기
@@ -182,4 +182,6 @@ select   *   from emp   where  mgr  is  null ;
 select   *  from  emp   order by   deptno   asc,   hiredate   asc ;
 select   *  from  emp   order by   deptno ,   hiredate   ;
 
+select  *   from   emp   where   job in ( '과장', '부장' )   order  by   job  asc ;
+--         3                1                       2                            4
 
