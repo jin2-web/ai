@@ -1,11 +1,19 @@
 DROP TABLE STUDENT;
 DROP TABLE COURSE;
+
+-- 부서 테이블 생성하기
+CREATE TABLE DEPT(
+	 DEPTNO NUMBER(2) CONSTRAINT PK_DEPT PRIMARY KEY,
+	 DNAME VARCHAR2(14),
+	 LOC   VARCHAR2(13) ) ;
+
 CREATE TABLE COURSE (
   COU_ID       NUMBER(4)      NOT NULL,   -- 과정 번호
   COU_NAME     VARCHAR(20)    NULL,  -- 과정명
   TEA_NAME     VARCHAR(20)    NULL,  -- 강사명
   PRIMARY KEY(COU_ID)   -- 과정 번호를 기본키로 지정
 );
+
 CREATE TABLE STUDENT (
   STU_ID       NUMBER(4)        NOT NULL, -- 학생번호, 널 값 허용 안 함
   STU_NAME     VARCHAR(20)      NULL, -- 학생명
@@ -17,6 +25,7 @@ CREATE TABLE STUDENT (
   -- -- 과정 번호를 외래키로 지정
   FOREIGN KEY(COU_ID) REFERENCES COURSE(COU_ID)
 );
+
 --과정 테이블 데이터 입력
 INSERT INTO course VALUES(10,'모바일','성윤정');
 INSERT INTO course VALUES(20,'자바','김혜경');
