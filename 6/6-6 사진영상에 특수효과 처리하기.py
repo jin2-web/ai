@@ -71,12 +71,14 @@ class SpecialEffect(QMainWindow):
         fname=QFileDialog.getSaveFileName(self,'파일 저장','./')
         
         i=self.pickCombo.currentIndex()
+        print( "i==>", i )
         if i==0: cv.imwrite(fname[0],self.emboss) # ?? 저장 안됨
         elif i==1: cv.imwrite(fname[0],self.cartoon)
         elif i==2: cv.imwrite(fname[0],self.sketch_gray)
         elif i==3: cv.imwrite(fname[0],self.sketch_color)
         elif i==4: cv.imwrite(fname[0],self.oil)
-                        
+        
+                
     def quitFunction(self):
         cv.destroyAllWindows()        
         self.close()    
